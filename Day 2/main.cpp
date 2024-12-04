@@ -11,8 +11,7 @@ int main(int argc, char const *argv[]) {
 
     string line;
     ifstream myfile ("puzzle.txt");
-    if (myfile.is_open())
-    {
+    if (myfile.is_open()) {
         while(getline(myfile, line)) {
             stringstream ss(line); 
             bool hasChecked = false;
